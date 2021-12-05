@@ -1,0 +1,391 @@
+body {
+  font-family: "Readex Pro", sans-serif;
+}
+.statistics2--container {
+  background-color: #f5e9be;
+  color: #164c4f;
+
+  &__deco {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 5rem;
+  }
+
+  &__graph {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.statistics3--container {
+  background-color: #f79568;
+  color: #f5e9be;
+
+  &__deco {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-weight: 900;
+  }
+
+  .cards--container {
+    &__card1,
+    &__card2,
+    &__card3 {
+      text-align: center;
+      padding: 3rem;
+
+      h1 {
+        font-size: 80px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    &__card1,
+    &__card3 {
+      color: #164c4f;
+    }
+
+    &__card2 {
+      background-color: #1f7178;
+      color: #f79568;
+    }
+  }
+}
+
+.footer {
+  background-color: #164c4f;
+  padding: 2rem;
+  color: #f5e9be;
+  &__sources,
+  &__link,
+  &__logo {
+    padding: 2rem;
+  }
+
+  &__sources {
+    position: relative;
+    padding-bottom: 2rem;
+    h5 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 1px;
+      background-color: #f79568;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__link {
+    text-align: center;
+    color: #f79568;
+    padding-top: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+    &::after {
+      content: "";
+      display: block;
+      width: 80%;
+      height: 1px;
+      background-color: #f79568;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+
+    button {
+      background-color: #f79568;
+      color: #164c4f;
+      padding: 0.8rem;
+      border-radius: 8px;
+    }
+  }
+
+  &__logo {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+
+    img {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 23px;
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .statistics2--container {
+    background-color: #f5e9be;
+    padding: 2rem;
+    color: #164c4f;
+
+    &__deco {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 23px;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 5rem;
+    }
+
+    &__graph {
+      width: 80%;
+    }
+  }
+
+  .statistics3--container {
+    background-color: #f79568;
+    color: #f5e9be;
+
+    .cards--title {
+      padding: 2rem 2rem 0;
+    }
+
+    &__deco {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 23px;
+      font-weight: 900;
+    }
+
+    &__card1,
+    &__card2,
+    &__card3 {
+      text-align: center;
+      padding: 3rem;
+
+      h1 {
+        font-size: 80px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    &__card1,
+    &__card3 {
+      color: #164c4f;
+    }
+
+    &__card2 {
+      background-color: #1f7178;
+      color: #f79568;
+    }
+  }
+
+  .footer {
+    background-color: #164c4f;
+    padding: 2rem;
+    color: #f5e9be;
+    &__sources,
+    &__link,
+    &__logo {
+      padding: 2rem;
+    }
+
+    &__sources {
+      position: relative;
+      padding-bottom: 2rem;
+      h5 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      &::after {
+        content: "";
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: #f79568;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &__link {
+      text-align: center;
+      color: #f79568;
+      padding-top: 2rem;
+      position: relative;
+      padding-bottom: 2rem;
+      &::after {
+        content: "";
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: #f79568;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      p {
+        margin-bottom: 2rem;
+      }
+
+      button {
+        background-color: #f79568;
+        color: #164c4f;
+        padding: 0.8rem;
+        border-radius: 8px;
+      }
+    }
+
+    &__logo {
+      text-align: center;
+      padding-top: 2rem;
+      color: white;
+
+      img {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 23px;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .statistics2--container {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    &__left,
+    &__right {
+      max-width: 50%;
+    }
+  }
+
+  .statistics3--container {
+    position: relative;
+
+    .cards--title {
+      position: absolute;
+      top: 3rem;
+      left: 10%;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+    .cards--container {
+      display: flex;
+      &__card1,
+      &__card2,
+      &__card3 {
+        text-align: center;
+        padding-top: 12rem;
+        h1 {
+          font-size: 80px;
+          margin-bottom: 1rem;
+        }
+      }
+
+      &__card1,
+      &__card3 {
+        color: #164c4f;
+      }
+
+      &__card2 {
+        background-color: #1f7178;
+        color: #f79568;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    &__sources,
+    &__link,
+    &__logo {
+      width: 30%;
+    }
+
+    &__sources {
+      position: relative;
+      &::after {
+        width: 1px;
+        height: 60%;
+        background-color: #f79568;
+        position: absolute;
+        bottom: 20%;
+        left: 100%;
+      }
+    }
+
+    &__link {
+      &::after {
+        width: 1px;
+        height: 60%;
+        background-color: #f79568;
+        position: absolute;
+        bottom: 20%;
+        left: 100%;
+      }
+
+      p {
+        margin-bottom: 2rem;
+      }
+
+      button {
+        background-color: #f79568;
+        color: #164c4f;
+        padding: 0.8rem;
+        border-radius: 8px;
+      }
+    }
+
+    &__logo {
+      text-align: center;
+      padding-top: 2rem;
+      color: white;
+
+      img {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 23px;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
