@@ -1,0 +1,42 @@
+@include media-sp {
+  header {
+    .header--img-container1,
+    .header--img-container2 {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 2rem 3rem;
+    }
+  }
+
+  .signs--marus-container {
+    padding: 0.5rem;
+    text-align: center;
+
+    img {
+      height: 220px;
+      width: 220px;
+      padding: 1rem;
+    }
+  }
+
+  .graph {
+    text-align: center;
+    height: 320px;
+    width: 360px;
+  }
+}
+
+@include media-pc {
+  .header--img-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    &1,
+    &2 {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 2rem 3rem;
+    }
+  }
+}
