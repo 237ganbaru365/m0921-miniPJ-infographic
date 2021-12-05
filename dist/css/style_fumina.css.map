@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,aAAa,CAAC;IACZ,gBAAgB,EAAE,OAAO;IACzB,MAAM,EAAE,IAAI;GACb",
     "sources": [
-        "style_fumina.scss"
+        "../../css/style_fumina.scss"
     ],
     "names": [],
     "file": "style_fumina.css"

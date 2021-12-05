@@ -1,0 +1,20 @@
+$primary-color: #1c4c4f;
+$secondary-color: #f29568;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin media-sp {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin media-pc {
+  @media screen and (min-width: 481px) {
+    @content;
+  }
+}
