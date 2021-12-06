@@ -29,7 +29,7 @@
 @include media-pc {
   .header--img-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 
     &1,
@@ -63,17 +63,17 @@
   }
 
   .statistics1--container {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
 
-      &-left {
-          margin-left: 5rem;
-      }
+    &-left {
+      margin-left: 5rem;
+    }
 
-      .statistics1--graph {
-          p {
-              padding-top: 5rem;
-          }
+    .statistics1--graph {
+      p {
+        padding-top: 5rem;
       }
+    }
   }
 }

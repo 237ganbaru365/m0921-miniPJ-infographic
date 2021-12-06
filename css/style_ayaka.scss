@@ -20,7 +20,7 @@ header {
     height: 40px;
     width: 100%;
   }
-  
+
   h1 {
     font-size: 3.5rem;
     text-align: center;
@@ -34,39 +34,9 @@ header {
     padding-bottom: 5rem;
   }
 
-  .header--img-container1 {
-    &-teeth {
-      background-image: url(../image/img3.png);
-      background-size: cover;
-      height: 150px;
-      width: 200px;
-
-      p {
-        text-align: center;
-      }
-
-      p::before {
-        content: '42';
-        font-size: 4rem;
-      }
-    }
-  }
-
-  .header--img-container2 {
-    &-teeth {
-      background-image: url(../image/img3.png);
-      background-size: cover;
-      height: 150px;
-      width: 200px;
-    }
-
-    p {
-      text-align: center;
-    }
-
-    p::before {
-      content: '30';
-      font-size: 4rem;
+  .header--img-container {
+    .teeth {
+      padding-left: 2rem;
     }
   }
 }

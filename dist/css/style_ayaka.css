@@ -36,8 +36,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
   .header--img-container1, .header--img-container2 {
@@ -115,36 +116,8 @@ header h2 {
   padding-bottom: 5rem;
 }
 
-header .header--img-container1-teeth {
-  background-image: url(../image/img3.png);
-  background-size: cover;
-  height: 150px;
-  width: 200px;
-}
-
-header .header--img-container1-teeth p {
-  text-align: center;
-}
-
-header .header--img-container1-teeth p::before {
-  content: '42';
-  font-size: 4rem;
-}
-
-header .header--img-container2-teeth {
-  background-image: url(../image/img3.png);
-  background-size: cover;
-  height: 150px;
-  width: 200px;
-}
-
-header .header--img-container2 p {
-  text-align: center;
-}
-
-header .header--img-container2 p::before {
-  content: '30';
-  font-size: 4rem;
+header .header--img-container .teeth {
+  padding-left: 2rem;
 }
 
 .signs--container {
